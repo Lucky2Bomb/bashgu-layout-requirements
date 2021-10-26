@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'Lora';
+    src: url('../fonts/Lora/Lora-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat/Montserrat-Regular.ttf');
+}
+
+.bashgu-kit {
+    --navbar-background: #0051AD;
+    --navbar-background-collapse: #0d5ab1;
+    --navbar: #FFFFFF;
+
+    /* Google Fonts */
+    --navbar-h1-font-family: 'Montserrat', sans-serif;
+    --navbar-brand-font-family: 'Lora', serif;
+
+}
+
+.bashgu-navbar {
+    background-color: var(--navbar-background);
+    color: var(--navbar);
+}
+
+.bg-bashgu-navbar {
+    background-color: var(--navbar-background);
+}
+
+.text-bashgu-navbar {
+    color: var(--navbar);
+}
+
+.bashgu-navbar__h1 {
+    font-family: var(--navbar-h1-font-family);
+    font-weight: bold;
+    text-align: center;
+}
+
+.bashgu-navbar__brand {
+    font-family: var(--navbar-brand-font-family);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    width: 200px;
+    display: inline-block;
+    word-wrap: normal;
+    white-space: normal;
+}
